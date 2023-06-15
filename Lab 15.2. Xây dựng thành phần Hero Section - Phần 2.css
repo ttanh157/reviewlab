@@ -1,0 +1,82 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-family: "Inter", sans-serif;
+  color: #444;
+}
+.container {
+  margin: 0 auto;
+  width: 1200px;
+}
+.header {
+  position: relative;
+  height: 100vh;
+  /* background-color: orange; */
+  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+    url(./hero.jpg);
+  background-size: cover;
+  color: #fff;
+}
+
+nav {
+  font-size: 20px;
+  font-weight: 700;
+  padding-top: 32px;
+  /* background-color: green; */
+  display: flex;
+  justify-content: space-between;
+}
+
+h1 {
+  font-size: 52px;
+  margin-bottom: 32px;
+  line-height: 1.05;
+}
+p {
+  font-size: 20px;
+  line-height: 1.6;
+  margin-bottom: 48px;
+}
+
+.btn:link,
+.btn:visited {
+  font-size: 20px;
+  font-weight: 700;
+  background-color: orange;
+  text-decoration: none;
+  display: inline-block;
+  padding: 16px 32px;
+  border-radius: 9px;
+  color: white;
+}
+.btn:hover {
+  font-size: 20px;
+  font-weight: 700;
+  background-color: rgb(83, 55, 2);
+  text-decoration: none;
+  display: inline-block;
+  padding: 16px 32px;
+  border-radius: 9px;
+  color: white;
+}
+
+h2 {
+  font-size: 44px;
+  margin-bottom: 48px;
+}
+
+section {
+  padding: 96px 0;
+  background-color: #f7f7f7;
+}
+
+.header_container {
+  width: 1200px;
+  position: absolute;
+  left: 30%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
